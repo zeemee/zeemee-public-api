@@ -1,5 +1,5 @@
 json.drinks [drink] do |drink|
-  json.(drink, :name, :instructions, :image)
+  json.(drink, :id, :name, :instructions, :image)
   json.container drink.container.name
   json.category drink.category.name
   json.ingredients drink.drink_ingredients do |drink_ingredient|
